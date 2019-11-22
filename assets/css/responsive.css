@@ -235,6 +235,37 @@
     .single-family {
         margin-bottom: 30px;
     }
+
+    .intervalpopup-wrap {
+        position: fixed;
+        left: auto;
+        right: 15px;
+        bottom: auto;
+        top: 15px;
+    }
+
+    @keyframes showhide{
+        0%{
+            right: -390px;
+        }
+        25%{
+            right: -390px;
+        }
+        50%{
+            right: 15px;
+        }
+        75%{
+            right: 15px;
+        }
+        100%{
+            right: -390px;
+        }
+    }
+
+    div#ppup .def-btn {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -249,5 +280,6 @@
     .customers-raving-wrap .section-title h5 {
         margin-bottom: 20px;
     }
-    
+
 }
+

@@ -27,19 +27,6 @@
     });
   
   
-    // // Header hide Scroll
-    // var amount = 20;
-  
-    // $(window).on('scroll', function(){
-    // if($(window).scrollTop()>=amount && !$('header').hasClass('d-none')){
-    //     $('header').addClass('d-none'); 
-    // }
-    // else if($(window).scrollTop()<amount && $('header').hasClass('d-none')){
-    //     $('header').removeClass('d-none') 
-    // }
-    // });
-  
-  
     
   
   })(jQuery);

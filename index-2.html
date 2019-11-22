@@ -661,7 +661,7 @@
   </div>
 
 
-<div class="sec4-area">
+<div class="sec4-area" id="element">
   <div class="container">
       <div class="row">
           <div class="col-lg-10 col-lg-9">
@@ -725,6 +725,10 @@
   <!-- Footer End -->
 
 
+  <div class="checknow-pupup text-center py-2" id="ppup">
+     <a href="#" class="def-btn">CHECK AVAILABILITY</a>
+  </div>
+
   <!-- Code end -->
 
 
@@ -738,6 +742,27 @@
   <script src="assets/js/jquery.meanmenu.min.js"></script>
   <!-- Custom JS -->
   <script src="assets/js/main.js"></script>
+
+
+  <script>
+
+
+     $(window).scroll(function() {
+    var top_of_element = $("#element").offset().top;
+    var bottom_of_element = $("#element").offset().top + $("#element").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+    if($(window).scrollTop()<=300){
+      $('#ppup').removeClass('show');
+      }
+    else if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)){
+      $('#ppup').removeClass('show');
+    } else {
+      $('#ppup').addClass('show');
+    }
+});
+    
+  </script>
 
 </body>
 
