@@ -271,6 +271,19 @@
         display: block;
         position: static !important;
     }
+
+    .cta-box-2-content a.def-btn, .cta-box-wrap a.def-btn {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+
+    .cta-box-wrap h3 {
+        font-size: 20px;
+    }
+
+    .sec2-title h2 {
+        font-size: 28px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -955,19 +955,19 @@ span.family-btn {
 
 @keyframes showhide{
 	0%{
-		right: -390px;
+		bottom: -120px;
 	}
 	40%{
-		right: -390px;
+		bottom: -120px;
 	}
 	60%{
-		right: 15px;
+		bottom: 15px;
 	}
 	85%{
-		right: 15px;
+		bottom: 15px;
 	}
 	100%{
-		right: -390px;
+		bottom: -120px;
 	}
 }
 
