@@ -248,13 +248,13 @@
         0%{
             right: -390px;
         }
-        20%{
+        40%{
             right: -390px;
         }
-        50%{
+        60%{
             right: 15px;
         }
-        80%{
+        85%{
             right: 15px;
         }
         100%{
@@ -265,6 +265,11 @@
     div#ppup .def-btn {
         font-size: 14px;
         padding: 8px 10px;
+    }
+
+    .header-top.show {
+        display: block;
+        position: static !important;
     }
 }
 
